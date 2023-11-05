@@ -1,0 +1,61 @@
+
+/* Estilos da barra de navegação */
+.navbar {
+    background-color: #034694; /* Cor correspondente ao header da página */
+    color: white;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar li {
+    padding: 0 10px;
+}
+.navbar a:hover {
+    background-color: #FFD700; /* Cor para hover, dourado para destacar */
+    border-radius: 5px;
+}
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+    .navbar ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar li {
+        text-align: center;
+        width: 100%;
+    }
+    .navbar a {
+        width: 100%;
+        padding: 10px;
+    }
+    .galeria-imagens img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportNET</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+    <style>
+        .navbar {
+            background-color: #034694;
+            color: white;
+            padding: 10px 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .navbar .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar li {
+            padding: 0 10px;
+        }
+
+        .navbar a:hover {
+            background-color: #FFD700;
+            border-radius: 5px;
+        }
+
+        .navbar .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+
+        @media (max-width: 768px) {
+            .navbar .container {
+                flex-direction: column;
+            }
+
+            .navbar ul {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .navbar li {
+                text-align: center;
+                width: 100%;
+            }
+
+            .navbar a {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .galeria-imagens img {
+                max-width: 100%;
+            }
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .cabecalho {
+            background-color: #034694;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .conteudo {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Futebol</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Times.html">Times</a></li>
+                <li><a href="SelecaoBrasil.html">Seleção</a></li>
+                <li><a href="Brasileirão.html">Brasileirão</a></li>
+                <li><a href="CopaBrasil.html">Copa do Brasil</a></li>
+                <li><a href="Estatísticas.html">Estatísticas</a></li>
+                <li><a href="MelhoresJogadas.html">Melhores Jogadas</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="conteudo">
+
+        <div class="conteudo">
+            <h2 style="color: #034694;">Estatísticas da Seleção Brasileira - 2020</h2>
+
+            <section>
+                <h3 style="color: #034694;">Artilharia</h3>
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                    <thead>
+                        <tr style="background-color: #034694; color: white;">
+                            <th>Posição</th>
+                            <th>Jogador</th>
+                            <th>Equipe</th>
+                            <th>Gols</th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color: white;">
+                        <tr>
+                            <td>1</td>
+                            <td>Richarlison</td>
+                            <td>Everton</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Gabriel Barbosa</td>
+                            <td>Flamengo</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Roberto Firmino</td>
+                            <td>Liverpool</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 style="color: #034694;">Maiores Assistências</h3>
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                    <thead>
+                        <tr style="background-color: #034694; color: white;">
+                            <th>Posição</th>
+                            <th>Jogador</th>
+                            <th>Equipe</th>
+                            <th>Assistências</th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color: white;">
+                        <tr>
+                            <td>1</td>
+                            <td>Neymar Jr.</td>
+                            <td>Paris Saint-Germain</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Éverton Ribeiro</td>
+                            <td>Flamengo</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Renan Lodi</td>
+                            <td>Atlético Madrid</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 style="color: #034694;">Desempenho da Seleção Brasileira</h3>
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                    <thead>
+                        <tr style="background-color: #034694; color: white;">
+                            <th>Competição</th>
+                            <th>Vitórias</th>
+                            <th>Empates</th>
+                            <th>Derrotas</th>
+                            <th>Pontos</th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color: white;">
+                        <tr>
+                            <td>Eliminatórias Copa do Mundo</td>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>31</td>
+                        </tr>
+                        <tr>
+                            <td>Amistosos Internacionais</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Copa América</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>16</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </div>
+        <br>
+
+
+    </div>
+    <br>
+
+</body>
+
+</html>
